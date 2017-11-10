@@ -34,7 +34,7 @@ namespace KNFramework
                 go.transform.localPosition = new Vector3(0, 0, 0);
             }
             _instance = go.AddComponent<T>();
-            go.name = _instance.GetType().ToString();
+            go.name = _instance.GetType().Name;
             if (dontDestroyOnLoad)
             {
                 GameObject.DontDestroyOnLoad(go);
