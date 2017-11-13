@@ -42,7 +42,7 @@ namespace KNFramework
         private void Update()
         {
             _gameTimer += Time.deltaTime;
-          
+            
         }
     }
 
