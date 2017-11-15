@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace KNFramework
 {
-    public class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T>
+    public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T>
     {
         protected static T _instance = null;
 
@@ -12,7 +12,7 @@ namespace KNFramework
         {
             get
             {
-                if(_instance == null)
+                if (_instance == null)
                 {
                     Debug.Log("todo");
                 }
