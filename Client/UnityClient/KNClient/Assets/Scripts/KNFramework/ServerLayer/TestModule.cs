@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using KNFramework;
 
-public class TestServiceModuleMgr : ServiceModule
+namespace KNFramework
 {
+    public class TestModule
+    {
 
+    }
 }

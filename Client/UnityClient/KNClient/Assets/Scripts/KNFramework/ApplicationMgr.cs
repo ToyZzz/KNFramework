@@ -28,7 +28,7 @@ namespace KNFramework
 
         private void Update()
         {
-            
+
         }
 
     }
