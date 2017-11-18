@@ -38,7 +38,7 @@ namespace KNFramework
 
         public static void Log(string debugColor, string TagName, string methodName, string msg, object context = null)
         {
-            InternalLog(string.Format("<color=#{0}>{1}:{2}:{3}</color>", debugColor, TagName, methodName, msg), context);
+            InternalLog(string.Format("<color=#{0}>{1}:{2}-->{3}</color>", debugColor, TagName, methodName, msg), context);
         }
 
         public static void Log(DebugColor debugColor, string msg, object context = null)
@@ -54,6 +54,16 @@ namespace KNFramework
         public static void Log(string msg, object context = null)
         {
 
+        }
+
+        private static string GetLogMsg(string msg)
+        {
+            return "aaa";
+        }
+
+        private static string GetLogTime()
+        {
+            return System.DateTime.Now.ToString("HH:mm:ss.fff");
         }
 
         private static void InternalLog(string msg, object context = null)

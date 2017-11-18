@@ -34,6 +34,8 @@ namespace KNFramework
         }
 
 
+
+
         private static string GetLogCallerMethod()
         {
             StackTrace st = new StackTrace(2, false);
@@ -49,10 +51,10 @@ namespace KNFramework
                 {
                     StackFrame oneSf = st.GetFrame(currStackFrameIndex);
                     MethodBase oneMethod = oneSf.GetMethod();
-                    // if (oneMethod.Module.Assembly != _assembly)
-                    // {
+                    if (oneMethod.Module.Assembly != _assembly)
+                    {
                     return oneMethod.Name;
-                    // }
+                    }
                     currStackFrameIndex++;
                 }
             }
