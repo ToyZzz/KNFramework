@@ -1,0 +1,7 @@
+E:\Github\KNFramework\Client\UnityClient\Debuger\Debuger\Debuger\bin\Debug\Debuger.dll
+E:\Github\KNFramework\Client\UnityClient\Debuger\Debuger\Debuger\bin\Debug\Debuger.pdb
+E:\Github\KNFramework\Client\UnityClient\Debuger\Debuger\Debuger\bin\Debug\UnityEngine.dll
+E:\Github\KNFramework\Client\UnityClient\Debuger\Debuger\Debuger\bin\Debug\UnityEngine.xml
+E:\Github\KNFramework\Client\UnityClient\Debuger\Debuger\Debuger\obj\Debug\Debuger.csprojResolveAssemblyReference.cache
+E:\Github\KNFramework\Client\UnityClient\Debuger\Debuger\Debuger\obj\Debug\Debuger.dll
+E:\Github\KNFramework\Client\UnityClient\Debuger\Debuger\Debuger\obj\Debug\Debuger.pdb

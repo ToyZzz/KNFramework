@@ -8,6 +8,6 @@ public class ModuleBase  {
     /// </summary>
     public virtual void OnRelease()
     {
-        this.Log("On Release");
+        // this.Log("On Release");
     }
 }

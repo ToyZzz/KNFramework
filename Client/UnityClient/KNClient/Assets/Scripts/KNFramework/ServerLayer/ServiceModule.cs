@@ -63,7 +63,7 @@ namespace KNFramework
 
         public virtual void OnCreateModule()
         {
-            this.Log(_moduleName + " is Create");
+            this.Log( Debuger.DebugColor.Green,_moduleName + " is Create");
             ServiceModuleMgr.Instance.OnServiceModuleInit<T>(_instance);
         }
 
@@ -79,7 +79,7 @@ namespace KNFramework
 
         public virtual void OnReleaseModule()
         {
-            this.Log(_instance.GetType().Name + " is Release");
+            this.Log(Debuger.DebugColor.Green, _instance.GetType().Name + " is Release");
             ServiceModuleMgr.Instance.OnServiceModuleInit<T>(_instance);
         }
 
