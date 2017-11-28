@@ -37,6 +37,11 @@ namespace KNFramework
             }
         }
 
+        public static T CreateModule()
+        {
+            return CreateModule(true, ServiceModuleMgr.Instance.transform);
+        }
+
         public static T CreateModule(bool dontDestroyOnLoad, Transform fatherTrans)
         {
             if (_instance != null)
