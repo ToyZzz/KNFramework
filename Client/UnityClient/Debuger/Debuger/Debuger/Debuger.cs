@@ -56,6 +56,11 @@ namespace KNFramework
 
         }
 
+        public static void Log(string msg, params object[] args)
+        {
+            Log(DebugColor.Green, string.Format(msg, args));
+        }
+
         private static string GetLogMsg(string msg)
         {
             return "aaa";
